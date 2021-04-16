@@ -1,0 +1,74 @@
+@import "fonts.css";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbf7f5;
+    font-size: 24px;
+    width: 50%;
+    margin: auto;
+    color: #123c69;
+}
+
+@media screen and (max-width: 1600px) {
+    body {
+      width: 70%;
+    }
+}
+img {
+    box-shadow: 10px 10px #c5cbe3;
+    -moz-box-shadow: 10px 10px #c5cbe3;
+    -webkit-box-shadow: 10px 10px #c5cbe3;
+    -khtml-box-shadow: 10px 10px #c5cbe3;
+}
+
+@media screen and (max-width: 1250px) {
+    body {
+      width: 90%;
+    }
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: #4056a1;
+    text-shadow: 2px 2px #c5cbe3;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a:link {
+    color: #123c69;
+}
+  
+a:visited {
+    color: #123c69;
+}
+  
+a:hover {
+    color: hotpink;
+}
+  
+a:active {
+    color: #002e5e;
+}
