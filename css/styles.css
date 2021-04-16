@@ -72,3 +72,11 @@ a:hover {
 a:active {
     color: #002e5e;
 }
+
+ul {
+    list-style-type: square;
+}
+
+li::before {
+    color: #123c69;
+}
