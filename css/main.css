@@ -44,7 +44,6 @@ a:active {
 	margin-top: 2%;
 	margin-bottom: 1%;
 	padding-top: 1%;
-	border-radius: 6px;
 }
 
 #intro-pic {
@@ -141,7 +140,7 @@ img {
 	}
 
 	.intro {
-		width: 90%;
+		width: 95%;
 		display: block;
 	}
 
