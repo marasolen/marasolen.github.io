@@ -1,8 +1,9 @@
 body {
 	overflow-y: scroll;
 	font-family: 'Poppins', sans-serif;
-	background-color: #e4e6e1;
+	background-color: #FCFFFA;
 	font-weight: 300;
+	display: flex;
 }
 
 b {
@@ -19,6 +20,7 @@ h2 {
 
 a {
 	text-decoration: none;
+	font-weight: 500;
 }
 
 a:link {
@@ -37,9 +39,13 @@ a:active {
 	color: #3d612c;
 }
 
+.column {
+	display: block;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
 .intro {
-	display: flex;
-	width: 35%;
 	margin: auto;
 	margin-top: 2%;
 	margin-bottom: 1%;
@@ -47,20 +53,15 @@ a:active {
 }
 
 #intro-pic {
-	flex: 1;
 	padding-right: 3%;
 	margin: auto;
-}
-
-#intro-desc {
-	flex: 2;
+	width: 85%;
 }
 
 .section {
+	display: block;
 	margin: auto;
-	width: 35%;
-	padding-top: 0.5%;
-	border-radius: 6px;
+	padding-bottom: 0.5%;
 }
 
 .header {
@@ -80,68 +81,76 @@ a:active {
 
 .gallery {
 	margin: auto;
-	width: 90%;
 	line-height:0;
     -webkit-column-gap: 1%;
     -moz-column-gap: 1%;
     column-gap: 1%;
-	-webkit-column-count: 5;
-	-moz-column-count: 5;
-	column-count: 5;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
 }
 
 img {
 	width: 100%;
-	margin-bottom: 3%;
 	border-radius: 25px;
 }
 
+.gallery img {
+	margin-bottom: 3%;
+}
+
+.design {
+	display: flex;
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.design a {
+	flex: 1;
+}
+
+.design a img {
+	border: 2px solid #3d612c;
+}
+
+.design div {
+	flex: 3;
+	margin-left: 2%;
+}
+
 @media screen and (max-width: 1680px) {
-	.section {
-		width: 50%;
-	}
-
-	.gallery {
-		-webkit-column-count: 4;
-		-moz-column-count: 4;
-		column-count: 4;
-	}
-
-	.intro {
-		width: 50%;
-	}
-}
-
-@media screen and (max-width: 1280px) {
-	.section {
-		width: 80%;
-	}
-
-	.gallery {
-		-webkit-column-count: 3;
-		-moz-column-count: 3;
-		column-count: 3;
-	}
-
-	.intro {
-		width: 80%;
-	}
-}
-
-@media screen and (max-width: 736px) {
-	.section {
-		width: 95%;
-	}
-
 	.gallery {
 		-webkit-column-count: 2;
 		-moz-column-count: 2;
 		column-count: 2;
 	}
 
-	.intro {
-		width: 95%;
+	.design div {
+		flex: 2;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.gallery {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+
+	body {
 		display: block;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	body {
+		display: block;
+	}
+
+	.gallery {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
 	}
 
 	#intro-pic {
