@@ -3,6 +3,9 @@ body {
 	font-family: 'Poppins', sans-serif;
 	background-color: #FCFFFA;
 	font-weight: 300;
+}
+
+.column-container {
 	display: flex;
 }
 
@@ -55,7 +58,6 @@ a:active {
 
 .intro {
 	margin: auto;
-	margin-top: 2%;
 	margin-bottom: 1%;
 	padding-top: 1%;
 }
@@ -145,13 +147,13 @@ img {
 		column-count: 2;
 	}
 
-	body {
+	.column-container {
 		display: block;
 	}
 }
 
 @media screen and (max-width: 736px) {
-	body {
+	.column-container {
 		display: block;
 	}
 
