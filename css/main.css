@@ -132,6 +132,25 @@ img {
 	margin-left: 2%;
 }
 
+.design-big {
+	display: flex;
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.design-big a {
+	flex: 1;
+}
+
+.design-big a img {
+	border: 2px solid black;
+}
+
+.design-big div {
+	flex: 2;
+	margin-left: 2%;
+}
+
 @media screen and (max-width: 1680px) {
 	.gallery {
 		-webkit-column-count: 2;
