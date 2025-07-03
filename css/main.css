@@ -64,6 +64,8 @@ a:active {
 	margin: auto;
 	margin-bottom: 1%;
 	padding-top: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
 }
 
 #intro-pic {
@@ -130,6 +132,7 @@ img {
 .design div {
 	flex: 3;
 	margin-left: 2%;
+	margin-right: 2%;
 }
 
 .design-big {
@@ -149,6 +152,7 @@ img {
 .design-big div {
 	flex: 2;
 	margin-left: 2%;
+	margin-right: 2%;
 }
 
 @media screen and (max-width: 1680px) {
