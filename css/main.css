@@ -71,7 +71,7 @@ a:active {
 #intro-pic {
 	padding-right: 3%;
 	margin: auto;
-	width: 85%;
+	width: 50%;
 }
 
 .section {
@@ -155,18 +155,6 @@ img {
 	margin-right: 2%;
 }
 
-@media screen and (max-width: 1680px) {
-	.gallery {
-		-webkit-column-count: 2;
-		-moz-column-count: 2;
-		column-count: 2;
-	}
-
-	.design div {
-		flex: 2;
-	}
-}
-
 @media screen and (max-width: 1280px) {
 	.gallery {
 		-webkit-column-count: 2;
@@ -176,6 +164,14 @@ img {
 
 	.column-container {
 		display: block;
+	}
+
+	.design div {
+		flex: 2;
+	}
+
+	#intro-pic {
+		width: 65%;
 	}
 }
 
@@ -191,6 +187,6 @@ img {
 	}
 
 	#intro-pic {
-		width: 60%;
+		width: 85%;
 	}
 }
