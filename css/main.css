@@ -97,7 +97,7 @@ a:active {
 
 .gallery {
 	margin: auto;
-	line-height:0;
+	line-height: 0;
     -webkit-column-gap: 1%;
     -moz-column-gap: 1%;
     column-gap: 1%;
@@ -125,10 +125,6 @@ img {
 	flex: 1;
 }
 
-.design a img {
-	border: 2px solid #adbca6;
-}
-
 .design div {
 	flex: 3;
 	margin-left: 2%;
@@ -143,10 +139,6 @@ img {
 
 .design-big a {
 	flex: 1;
-}
-
-.design-big a img {
-	border: 2px solid #adbca6;
 }
 
 .design-big div {
